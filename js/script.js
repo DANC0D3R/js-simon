@@ -29,6 +29,6 @@ setTimeout(function() {
             }
         }
         // Mostra il risultato
-        alert("Hai innseito " + correctNumbers + " numeri corretti: " + userNumbersArr.filter(n => numbers.includes(n))+ " e " + correctOrder + " numeri nella posizione corretta");
+        alert("Hai inserito " + correctNumbers + " numeri corretti: " + userNumbersArr.filter(n => numbers.includes(n))+ " e " + correctOrder + " numeri nella posizione corretta");
     }, 50);
 }, 3000);
