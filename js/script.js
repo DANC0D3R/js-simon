@@ -1,4 +1,4 @@
-// Genere 5 numeri casuali e li inserisce in "numbers"
+// Genera 5 numeri casuali e li inserisce in "numbers"
 let numbers = [];
 for (let i = 0; i < 5; i++) {
     let randomNumber = Math.floor(Math.random() * 100);
